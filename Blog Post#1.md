@@ -9,9 +9,10 @@ In this blog, we will briefly introduce the following topics:
 5. Project timeline
 
 ## What are we doing
+Basically, we are try to forecast the equity market trend by analyzing people's comments and points on online community websites to see whether they are holding positve or negative views towards certain equity market. And we can act according to different situations. In order to fullfil our goal, we need to follows 3 steps: 1. determine a appropriate market for our research target and websites that provides source of people's comments; 2. Web-scrapping people's comments from websites that we choose; 3. Analyze the data to draw conclusion using NLP technique.          
 
 ## Inspirations from Academic
-We got our idea from an experiment on emotions from Terrance Odean (*Andrade, E., Odean, T., & Lin, S. (2016). Bubbling with Excitement: An Experiment. Review of Finance, 20(2), 447-466.*). Terrance Odean is one of the most famous scholars in behavioral finance area. In his paper, Odean found that investor emotion intertwined with stock market bubble. Odean reached his conclusion by simulation experiment. We will try to reach this by empirical methodology and real news data.
+We got our idea from an experiment on emotions from Terrance Odean (*Andrade, E., Odean, T., & Lin, S. (2016). Bubbling with Excitement: An Experiment. Review of Finance, 20(2), 447-466.*). Terrance Odean is one of the most famous scholars in behavioral finance area. In his paper, Odean found that investor emotion can be intertwined with stock market bubble. Odean reached his conclusion by simulation experiment. We will try to reach this by empirical methodology and real news data.
 
 In our project we plan to use “Wayback Machine” to fetch historical news. We got this idea from a working paper from UC-Berkeley: *Chew, M., Puri, S., Sood, A., & Wearne, A. (2017). Using Natural Language Processing Techniques for Stock Return Predictions*.
 
@@ -32,12 +33,15 @@ Our project timeline is as follows and we will post our latest progress in the f
 
 • Week #1: 
 
+Research Framework Determination 
 Data Collection & Pre-processing
 
 • Week #2: 
 
-Text Analysis & Senti-score Computation
+Text Analysis 
+Senti-score Computation
 
 • Week #3: 
 
-Construct trading strategy & Wrap up final results
+Construct trading strategy 
+Wrap up final results
